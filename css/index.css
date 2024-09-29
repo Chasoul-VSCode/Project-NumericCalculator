@@ -1,0 +1,16 @@
+/* Custom styles can be added here */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.gradient-button {
+    background-image: linear-gradient(to right, #8B5CF6, #6366F1);
+    transition: all 0.3s ease;
+}
+
+.gradient-button:hover {
+    background-image: linear-gradient(to right, #7C3AED, #4F46E5);
+    transform: translateY(-2px);
+}
+
+/* Add more custom styles as needed */
